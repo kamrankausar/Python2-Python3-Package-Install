@@ -1,0 +1,16 @@
+I have both python2.7 and python3.2 installed in Ubuntu 16.04
+
+$ sudo apt-get install python3-setuptools
+
+$ sudo easy_install3 pip
+$ sudo pip-3.2 install numpy
+$ sudo easy_install3 pip
+$ sudo pip-3.5 install numpy
+        or
+$ sudo pip3.5 install numpy
+## Check Version 
+change the Python version in Jupyter Notebook or Spider or on terminal
+import numpy as np
+import pandas as pd
+np.__version__
+pd.__version__
