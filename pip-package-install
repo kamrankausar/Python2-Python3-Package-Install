@@ -14,3 +14,8 @@ import numpy as np
 import pandas as pd
 np.__version__
 pd.__version__
+
+
+# For jupyter, change the kernel i.e from python3 to python2 and vice verse
+
+$ python3 -m pip install ipykernel
